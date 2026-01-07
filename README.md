@@ -90,7 +90,7 @@ advertisementData.addData(serviceData);
 
 ---
 
-## 🧠 Key Implementation Details
+## Key Implementation Details
 
 * Uses **BLE Beacon advertising mode**
 * Manually constructs advertisement payload
@@ -100,7 +100,7 @@ advertisementData.addData(serviceData);
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 1. Install **ESP32 Arduino Core v3.0.7**
 2. Open the sketch in Arduino IDE
@@ -114,7 +114,7 @@ advertisementData.addData(serviceData);
 
 ---
 
-## 📱 Expected Output
+## Expected Output
 
 * ESP32 appears as a **BLE Beacon**
 * Advertisement packets visible without pairing
@@ -123,12 +123,3 @@ advertisementData.addData(serviceData);
 
 ---
 
-## 🛠️ Compatibility Notes
-
-| Arduino Core | Status                |
-| ------------ | --------------------- |
-| ≤2.0.x       | ❌ Many examples break |
-| **3.0.7**    | ✅ Fully supported     |
-| Future 3.x   | ⚠️ Likely compatible  |
-
----
